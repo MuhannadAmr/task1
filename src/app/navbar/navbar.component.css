@@ -1,0 +1,12 @@
+.text-main{
+    color: #ff9119 !important;
+}
+.collapse ul li a{
+    color: #ffc5c5 !important;
+}
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}

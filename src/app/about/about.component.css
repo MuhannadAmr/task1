@@ -1,0 +1,55 @@
+#about{
+    background-color: rgb(246, 246, 246);
+}
+.row .col-md-3 .inner h4{
+    z-index: 2;
+    top: 5px;
+    left: -100%;
+    transition: all 0.4s;
+}
+.row .col-md-3 .inner:hover h4{
+    left: 5px;
+}
+.inner{
+    overflow: hidden;
+}
+.layer{
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: -100%;
+    background-color: rgba(000, 000, 000, 0.6);
+    transition: all 0.4s;
+}
+.row .col-md-3 .inner:hover .layer{
+    top: 0;
+    bottom: 0;
+}
+picture img{
+    transition: all 0.4s;
+}
+.row .col-md-3 .inner:hover img{
+    transform: scale(1.2);
+}
+.footer-card{
+    background-color: #f1b764;
+}
+.footer-card i{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.footer-card p{
+    background-color: #cce2ec;
+    cursor: default;
+}
+.footer-card i:hover {
+    cursor: pointer;
+    color: #cce2ec;
+}
+span{
+    color: rgb(67, 67, 254);
+    cursor: pointer;
+}
+span:hover{
+    color: blue;
+}
